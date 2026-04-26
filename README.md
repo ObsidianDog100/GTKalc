@@ -1,6 +1,5 @@
 # GTKalc - A GTK4 Calculator
-
-A simple calculator application built with GTK4.
+calculator app built with GTK4.
 
 ## Author
 Harry Elsdon
@@ -17,9 +16,3 @@ gcc -o gtkalc main.c calculator.c ui.c `pkg-config --cflags --libs gtk4`
 ```
 ./gtkalc
 ```
-
-## Features
-- Basic arithmetic operations: +, -, *, /
-- Decimal point support
-- Clear function
-- Nice GTK4 interface with styled display and buttons
